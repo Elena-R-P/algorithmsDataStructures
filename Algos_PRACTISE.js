@@ -252,4 +252,40 @@
 
 // linearSearch(y, arr);
 
-// 
+// // Recursion
+// function rSum(n){
+//     if (n === 1){
+//         return 1
+//     } else {
+//         return rSum(n-1) + n;
+//     }
+// }
+// console.log(rSum(54))
+// // Iteration
+// const iSum = (n) => {
+//     var sum = 0;
+//     for (var i=0; i<=n; i++){
+//         sum = sum + i;
+//     }
+//     return sum;
+// }
+// console.log(iSum(54));
+// // iFactorial
+// const iFactorial = (n) => {
+//     var factoreal = 1;
+//     for (var i=1; i<=n; i++){
+//         factoreal = factoreal*i;
+//     }
+//     return factoreal;
+// }
+// console.log(iFactorial(5));
+
+// // iFactorial recursion
+// const iFactorial = (n) => {
+//     if (n === 1){
+//         return 1;
+//     } else {
+//         return iFactorial(n-1) * n;
+//     }
+// }
+// console.log(iFactorial(5));
